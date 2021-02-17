@@ -4,34 +4,32 @@
     padding: 0;
   }
   
-  body {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    line-height: 1.6;
-    background: black;
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.6;
+}
+  
+  #main{
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
   }
   
-  .main {
-    text-align: center;
-    width: 90%;
-    opacity: 0;
-    display: none;
-    transition: opacity 1s ease-in;
-  }
-  
-  .main h1 {
+  #main h1{
     font-size: 50px;
     margin-bottom: 10px;
   }
   
-  .main p {
+  #main p {
     font-size: 25px;
     color: #333;
+
   }
   
   .btn {
