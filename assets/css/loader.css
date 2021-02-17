@@ -1,17 +1,18 @@
-.preloader {
-  font-family: 'ZCOOL Kuaile', cursive;
-  font-size: 40px;
-  color: white;
-  display: block;
+/* Preloader */
+.preloader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
 
 }
 
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.preloader p{
+  color: white;
+  margin-bottom: 15px;
+  font-family: 'ZCOOL Kuaile', cursive;
+  font-size: 45px;  
 }
 
 .loader > span {
